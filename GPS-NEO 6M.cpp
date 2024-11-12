@@ -34,7 +34,7 @@ void loop() {
       Serial.println(gps.location.lat(), 6);
       Serial.print("LONG: "); 
       Serial.println(gps.location.lng(), 6);
-      Serial.print("SPEED (km/h) = "); 
+      Serial.print("Velocidade (km/h) = "); 
       Serial.println(gps.speed.kmph()); 
       Serial.print("ALT (m)= "); 
       Serial.println(gps.altitude.meters());
@@ -42,7 +42,7 @@ void loop() {
       Serial.println(gps.hdop.value() / 100.0); 
       Serial.print("Satellites = "); 
       Serial.println(gps.satellites.value()); 
-      Serial.print("Time in UTC: ");
+      Serial.print("Time em UTC: ");
       Serial.println(String(gps.date.year()) + "/" + String(gps.date.month()) + "/" + String(gps.date.day()) + "," + String(gps.time.hour()) + ":" + String(gps.time.minute()) + ":" + String(gps.time.second()));
       Serial.println("");
     }
