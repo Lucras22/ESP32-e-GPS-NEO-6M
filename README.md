@@ -4,6 +4,12 @@ O Módulo GPS NEO-6M é capaz de informar a localização exata do objeto em que
 ## Estudado:
 - https://randomnerdtutorials.com/esp32-neo-6m-gps-module-arduino/
 - 
-## Ligação circuito:
+# Sensor GPS NEO-6M
+Perfeito funcionamento, apenas tenho duvidas quanto ao horário, mas pelo menos as coordenadas batem com minha localização e a data tambem estão corretas
 
-<img src="https://github.com/user-attachments/assets/e697375a-4a3c-4027-9bbc-57e64d661027" alt="circuito esp32 + MICS-6814" width="250"/>
+ultimo dado enviado pelo gps na imagem abaixo foi enviado as (17:28:34) e o gps afirmava ser (20:28:34) vemos exatamente 3 horas a mais.
+
+# imagens:
+<img src="https://github.com/user-attachments/assets/a0e7e016-d21e-402d-bcbc-6fcd336bab16" width="250"/>
+<img src="https://github.com/user-attachments/assets/6a345734-6c7f-416f-866b-00801a5daf8c" width="250"/>
+
